@@ -1,52 +1,128 @@
 
+
+hr{
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: black;
+  width: 3%;
+  height: 0%;
+}
+
+h1{
+font-family: 'Pacifico', cursive;
+font-size: 40px;
+line-height: 2;
+font-weight: normal;
+
+}
+h2{
+font-family: 'Poppins', sans-serif;
+color: #11999E;
+font-weight: normal;
+font-size: 2rem;
+}
+h3{
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
 body{
   margin: 0px;
   border: 0px;
+  text-align: center;
 }
 .silhouette{
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  height: 500px;
-  width: 1000px;
+
+  position: relative;
+
+}
+
+.running{
+  height: 25%;
+  width: 25%;
+  margin: 100px 30px 100px auto;
+  float:left;
+
+}
+.sprinting{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.writting{
+  font-size: 1.5rem;
+}
+.paragraphsprinting{
+  padding-top: 40px;
+}
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+  line-height: 2;
+}
+.hand{
+  height: 25%;
+  width: 25%;
+  float:right;
+  margin: 30px auto 100px  30px;
+
 }
 .cloud{
+position: absolute;
+top: 0px;
+width: 200px;
+right: 200px;
+}
+.cloudva{
+  position: relative;
   height: 200px;
   width: 200px;
-  margin-bottom:0px;
-  padding: 0px;
-  border: 0px;
-  background-color: black;
-
+  left: 300px;
+  bottom: 20px;
 }
 
-.blockbuster {
-background-color: #CDFCF6;
-border: 0px;
-padding: 0px;
-margin: 0px;
+.profile{
+  position:relative;
+}
+.middle-container{
+  background-color: #DEFCF9;
+}
+.footer-link{
+  background-color: red;
+}
+.bottom-container{
+    background-color: #3C84AB;
+    margin: 0px;
+
+}
+.secondphoto{
+  position:absolute;
+  height: 200px;
+  width: 200px;
+  right: 690px;
+  bottom: 170px;
+
 }
 
 .header{
   margin: 0px;
-
+  position: relative;
+  color: red;
+  left: 320px;
+  bottom: 800px;
 }
-.middle-container{
-  background-color: red;
-  border: 20px;
-  border-style: solid;
-  border-color: black;
-  margin-left: 260px;
-  height: 200px;
-  width: 200px;
+.under{
+  position: absolute;
+  left: 55px;
+  top: 60px;
+  color: red;
 }
 
-.bottom-container{
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-  margin-left: 500px;
-  border: 10px;
-  border-style: solid;
+.myphoto{
+position:relative;
+height: 300px;
+width: 300px;
+bottom: 300px;
+left: 323px;
 
 }
