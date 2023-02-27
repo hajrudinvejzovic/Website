@@ -1,0 +1,52 @@
+
+body{
+  margin: 0px;
+  border: 0px;
+}
+.silhouette{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  height: 500px;
+  width: 1000px;
+}
+.cloud{
+  height: 200px;
+  width: 200px;
+  margin-bottom:0px;
+  padding: 0px;
+  border: 0px;
+  background-color: black;
+
+}
+
+.blockbuster {
+background-color: #CDFCF6;
+border: 0px;
+padding: 0px;
+margin: 0px;
+}
+
+.header{
+  margin: 0px;
+
+}
+.middle-container{
+  background-color: red;
+  border: 20px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 260px;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container{
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+  border: 10px;
+  border-style: solid;
+
+}

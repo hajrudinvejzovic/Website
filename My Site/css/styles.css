@@ -1,0 +1,19 @@
+body {
+  background-image: url(file:///E:/Bootcamp%20projekat/web%20development/My%20Site/photos/AI.jpg);
+  background-size: cover;
+}
+hr{
+
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: grey;
+  width: 3%;
+  height: 0;
+
+}
+h1{
+  color: #6096B4;
+}
+h3{
+  color: #6096B4;
+}
